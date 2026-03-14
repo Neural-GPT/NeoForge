@@ -1,6 +1,6 @@
 ## **NeoForge**
 
-### **Sleek, modular ML utilities for Linear & Logistic Regression.**
+### **Sleek, modular ML utilities for Linear & Logistic Regression**
 ### **A lightweight Python library designed with sklearn-style API for clean, professional workflows, enhanced logging, and visualization utilities.
 
 ### **Features:**
