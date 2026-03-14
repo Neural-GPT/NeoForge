@@ -7,7 +7,7 @@
 
 **Linear & Logistic Regression – Fit, predict, and evaluate with a consistent API**
 
-**Fancy utilities – Learning rate scheduler, weight tracking, plotting, and metrics**
+**Modular utilities – Learning rate scheduler, weight tracking, plotting, and metrics**
 
 **Modular & Extendable – Add new models or custom methods without hassle**
 
