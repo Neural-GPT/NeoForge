@@ -21,7 +21,7 @@
 
 **-Extendable – easily add your own custom methods or models**
 
-### **Visualization Utilities**
+### **Usage**
 
 1. **Model Initialization**
    ```bash
@@ -31,18 +31,20 @@
 2. **Model Training**
    ```bash
    model.fit(x, y, verbose = 10, freeze = 0.1, save_history_interval = 10, random_state = 42, cosine_annealing = True, normalise = True)
-  
-3. **Cost vs Epoch**
+
+### **Visualization Utilities**
+
+1. **Cost vs Epoch**
    ```bash
    model.plot_cost()
 ![Cost Plot](repo_assets/Screenshot_2026-03-16_181555.png)
 
-4. **Coefficient Path**
+2. **Coefficient Path**
    ```bash
    model.coefficient_path()
 ![Coefficient Path](repo_assets/Screenshot_2026-03-16_184312.png)
 
-5. **Learning Rate Plot**
+3. **Learning Rate Plot**
    ```bash
    model.lr_plot()
 ![LR Plot](repo_assets/lr_plot.png)
@@ -68,7 +70,6 @@
 5. **Summary**
    ```bash
    model.summary()
-
 
 ### **License**
 **MIT © Arjun Gupta**
