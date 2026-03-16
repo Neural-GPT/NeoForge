@@ -9,7 +9,7 @@
 
 **Modular utilities – Learning rate scheduler, weight tracking, plotting, and metrics**
 
-**Modular & Extendable – Add new models or custom methods without hassle**
+**Modular & Extendable – Add new models or custom methods yourself without hassle**
 
 **Demo Notebook – Quick showcase with example usage and visualizations**
 
@@ -21,21 +21,53 @@
 
 **-Extendable – easily add your own custom methods or models**
 
-### **Utilities**
+### **Visualization Utilities**
 
 1. **Model Initialization**
    ```bash
-   from linear_models import Linear_Regression
-   model = Linear_Regression(alpha = 0.01, iter = 1000, l2 = 0.001)
-   
+   model = Linear_Regression(l2 = 0, alpha = 0.01, iter = 200)
+   model.fit(x, y, freeze = 0.1, random_state = 2,  verbose = 10, history_save_interval = 10, cosine_annealing = True, normalise = True)
+
 2. **Model Training**
    ```bash
-   model.fit(x, y, verbose = 50, freeze = 0.1, save_history_interval = 10, random_state = 42, cosine_annealing = True, normalise = True)
+   model.fit(x, y, verbose = 10, freeze = 0.1, save_history_interval = 10, random_state = 42, cosine_annealing = True, normalise = True)
   
 3. **Cost vs Epoch**
    ```bash
    model.plot_cost()
+![Cost Plot](repo_assets/Screenshot_2026-03-16_181555.png)
 
+4. **Coefficient Path**
+   ```bash
+   model.coefficient_path()
+![Coefficient Path](repo_assets/Screenshot_2026-03-16_184312.png)
+
+5. **Learning Rate Plot**
+   ```bash
+   model.lr_plot()
+![LR Plot](repo_assets/lr_plot.png)
+
+### **Attributes and Simple Methods**
+
+1. **Predict**
+   ```bash
+   model.predict(x)
+
+2. **Coefficients**
+   ```bash
+   model.coefficients_
+
+3. **Intercept**
+   ```bash
+   model.intercept_
+
+4. **Feature Importance**
+   ```bash  
+   model.feature_importance()
+
+5. **Summary**
+   ```bash
+   model.summary()
 
 
 ### **License**
