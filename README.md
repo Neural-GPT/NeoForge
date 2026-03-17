@@ -4,7 +4,7 @@
 ### **A lightweight Python library designed with sklearn-style API for clean, professional workflows, enhanced logging, and visualization utilities**
 
 ### **Features:**
-
+---
 **Linear & Logistic Regression – Fit, predict, and evaluate with a consistent API**
 
 **Modular utilities – Learning rate scheduler, weight tracking, plotting, and metrics**
@@ -13,8 +13,9 @@
 
 **Demo Notebook – Quick showcase with example usage and visualizations**
 
-### **Why NeoForge?**
 
+### **Why NeoForge?**
+---
 **-Sklearn-style API – clean, consistent, professional**
 
 **-Enhanced workflow – tracking, plotting, and extra utilities out of the box**
@@ -22,7 +23,7 @@
 **-Extendable – easily add your own custom methods or models**
 
 ### **Usage**
-
+---
 1. **Model Initialization**
    ```bash
    model = Linear_Regression(l2 = 0, alpha = 0.01, iter = 200)
@@ -45,7 +46,7 @@
    **-Normalise: auto normalise train and test set via Z-Score normalization**
 
 ### **Visualization Utilities**
-
+---
 1. **Cost vs Epoch**
    ```bash
    model.plot_cost()
@@ -62,7 +63,7 @@
 ![LR Plot](repo_assets/lr_plot.png)
 
 ### **Attributes and Simple Methods**
-
+---
 1. **Predict**
    ```bash
    model.predict(x)
