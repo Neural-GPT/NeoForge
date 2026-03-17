@@ -26,7 +26,6 @@
 1. **Model Initialization**
    ```bash
    model = Linear_Regression(l2 = 0, alpha = 0.01, iter = 200)
-   model.fit(x, y, freeze = 0.1, random_state = 2,  verbose = 10, history_save_interval = 10, cosine_annealing = True, normalise = True)
 
 2. **Model Training**
    ```bash
