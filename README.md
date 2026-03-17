@@ -30,6 +30,19 @@
 2. **Model Training**
    ```bash
    model.fit(x, y, verbose = 10, freeze = 0.1, save_history_interval = 10, random_state = 42, cosine_annealing = True, normalise = True)
+**Parameters:**
+
+   **-Verbose: epoch interval to print cost**
+   
+   **-Freeze: time delay between verbose prints (since model trains very fast)**
+   
+   **-Save History Interval: epoch interval to save weight and cost history (useful to save memory for high epochs)**
+   
+   **-Random State: set random state for weight initialization for reproducible results**
+   
+   **-Cosine Annealing: cosine learning rate scheduler**
+   
+   **-Normalise: auto normalise train and test set via Z-Score normalization**
 
 ### **Visualization Utilities**
 
