@@ -24,13 +24,27 @@
 
 ### **Usage**
 ---
-1. **Model Initialization**
-   ```bash
-   model = Linear_Regression(l2 = 0, alpha = 0.01, iter = 200)
+1. **Clone Repo**
+```yaml
+!git clone https://github.com/Neural-GPT/NeoForge
+```
+2. **Change directory**
+```yaml
+!cd NeoForge
+```
+3. **Import model**
+```yaml
+from linear_models import Linear_Regression
+```
+4. **Model Initialization**
+```yaml
+model = Linear_Regression(l2 = 0, alpha = 0.01, iter = 200)
+```
+5. **Model Training**
+```yaml
+model.fit(x, y, verbose = 10, freeze = 0.1, save_history_interval = 10, random_state = 42, cosine_annealing = True, normalise = True)
+```
 
-2. **Model Training**
-   ```bash
-   model.fit(x, y, verbose = 10, freeze = 0.1, save_history_interval = 10, random_state = 42, cosine_annealing = True, normalise = True)
 **Parameters:**
 
    **-Verbose: epoch interval to print cost**
